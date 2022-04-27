@@ -1,0 +1,47 @@
+
+    body {
+        background-color: #C8C6C6;
+    }
+    hr {
+        
+        background-color: #C8C6C6;
+        border-style: none;
+        border-top-style: dotted ;
+        border-width: 5px;
+        width: 5%;
+        
+    
+        
+    }
+    img {
+        height: 200px;
+    }
+    h1{
+        color: #323232;
+        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
+        ;
+        font-size: 40px;
+        
+    }
+    h3{
+        color: #3A3845;
+        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
+        ;
+    }
+    p {
+        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
+        ;
+    }
+    li {
+        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
+        ;
+        font-size: 15px;
+    }
+    td {
+        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
+        ;
+    }
+    label{
+        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
+        ;
+    }
