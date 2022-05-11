@@ -1,47 +1,148 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Varela Round', serif;  
+}
+h1{
+    line-height: 2;
+    color: #8785A2;
+    font-size: 5.625rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Water Brush',serif;
+}
+h2 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #8785A2  ;
+    font-family: 'Montserrat', serif;
+    margin: 100px auto 100px auto;
+}
 
-    body {
-        background-color: #C8C6C6;
-    }
-    hr {
-        
-        background-color: #C8C6C6;
-        border-style: none;
-        border-top-style: dotted ;
-        border-width: 5px;
-        width: 5%;
-        
+h3{
+    color: #343252;     
+    font-family: 'Montserrat', serif;
     
-        
-    }
-    img {
-        height: 200px;
-    }
-    h1{
-        color: #323232;
-        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
-        ;
-        font-size: 40px;
-        
-    }
-    h3{
-        color: #3A3845;
-        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
-        ;
-    }
-    p {
-        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
-        ;
-    }
-    li {
-        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
-        ;
-        font-size: 15px;
-    }
-    td {
-        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
-        ;
-    }
-    label{
-        font-family: Inter, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans
-        ;
-    }
+}
+hr{
+    border-style: dotted;
+    border-color: #C8C6C6;
+    border-width: 5px;
+    border-radius: 8;
+    border-bottom: 0;
+    width: 2%;
+}
+
+
+
+.top-container{
+    background-color: #F6F6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.cs{
+    
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 400px;
+    bottom: 600px;
+}
+.mountain{
+    
+    width: 50%;
+    opacity: 10%;
+}
+.pfp{
+    margin: 100px 0px 10px 0px;
+    height: 200px;
+    width: 200px;
+}
+.profile{
+    width: 50%;
+    margin: auto;
+}
+.hola-text{
+    margin: 50px auto 50px auto; 
+}
+.skill-row{
+    
+    text-align: left;
+    line-height: 2.2;
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+.pro-logo{
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+    
+}
+.pshop-logo{
+    width: 25%;
+    margin-left: 30px;
+    float: right;
+}
+.contact-me{
+    width: 50%;
+    margin: auto;
+}
+.inTouch{
+    margin-bottom: 50px;
+}
+.talk-to-me{
+    margin-bottom: 50px;
+}
+.talk-text{
+    margin-bottom: 50px;
+}
+.btn {
+    background: #e6e1e1;
+    background-image: -webkit-linear-gradient(top, #e6e1e1, #74729c);
+    background-image: -moz-linear-gradient(top, #e6e1e1, #74729c);
+    background-image: -ms-linear-gradient(top, #e6e1e1, #74729c);
+    background-image: -o-linear-gradient(top, #e6e1e1, #74729c);
+    background-image: linear-gradient(to bottom, #e6e1e1, #74729c);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #acacc8;
+    text-decoration: none;
+  }
+.bottom-container{
+    
+    height: 200px;
+    margin-top: 70px;
+    background-color: #e6e1e1;
+    position: relative;
+}
+.footer-container{
+    position: relative;
+    top: 60px;
+    
+}
+.footer-link{
+    text-decoration: none;
+    color : #67679c;
+    margin-right: auto 20px auto 20px;
+}
+#fiver{
+    margin-left: 20px ;
+}
